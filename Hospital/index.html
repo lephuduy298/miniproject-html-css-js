@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- CSS - Trang trí -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Tiêu đề trang web -->
+    <title>Teky Academy</title>
+    <link rel="stylesheet" href="./css/index.css"/>
+</head>
+<!-- Margin dùng để canh lền ngoài   -->
+<body>
+    <!-- Phân chia bố cục tran web -->
+     <!-- Sử dụng padding để canh lề bên trong                          trái trên phải dưới -->
+    <div class="toolbar">
+        <!-- <span>Học viện Teky</span>  Thẻ span chứa text -->
+        <!-- <b>Xin chào Teky</b>        Thẻ b in đậm -->
+        <!-- <i>Chúc bạn một ngày mới vui vẻ</i>        Thẻ i dùng để in nghiêng -->
+        <!-- Thẻ h dùng để định dạng cỡ chữ và độ đậm -->
+        <!-- <h1>Lê Phú Duy</h1>
+        <h2>Lê Phú Duy</h2>
+        <h3>Lê Phú Duy</h3>
+        <h4>Lê Phú Duy</h4> 
+        <h5>Lê Phú Duy</h5>
+        <h6>Lê Phú Duy</h6> -->
+        <!-- <u>Khóa học Siêu Nhân Lập Trình Web</u>        Thẻ u dùng để gạch chân -->
+         
+        <span>Contact us +84 971 583 095 | leduyphucat@gmail.com</span>
+    </div>
+    <!-- Dùng thẻ hiển thị display: flex dể các thẻ div con hiển thị thành 1 hàng theo dạng khối nếu còn không gian -->
+    <!-- <div style="display: flex;padding: 20px;">
+        <div style="width: 50%;">
+            <span>UK HOSPITAL</span>
+        </div>
+
+        <div style="width: 50%; text-align: right;"> -->
+            <!-- Thẻ a dùng để chuyển space -->
+            <!-- Dùng href để chuyển đường dẫn -->
+            <!-- <a href="*">Home</a>
+            <a href="*">About us</a>
+            <a href="*">Service</a>
+            <a href="*">Doctors</a>
+            <a href="*">Contact us</a>
+        </div>
+    </div> -->
+    <!-- <table border="1px"> -->
+    <!-- Header -->
+    <!-- Thẻ tr dùng để tạo 1 dòng trong table -->  
+    <!-- Thẻ th dùng để tạo 1 cột trong header -->
+    <!-- Thẻ td dùng để tạo 1 cột trong body -->
+     <!-- <thead>
+        <tr>
+            <th><span>Họ</span></th>
+            <th><span>Tên</span></th>
+            <th><span>Tuổi</span></th>
+        </tr>
+     </thead>
+
+     <tbody>
+        <tr>
+            <td><span>Lê</span></td>
+            <td><span>Phú Duy</span></td>
+            <td><span>20</span></td>
+
+        </tr>
+     </tbody>
+    </table> -->
+
+    <table class="table1">
+        <tbody>
+            <tr>
+                <td class="td_table1">
+                    <span style="color: #2FA5EB;">UK</span>
+                    <span>Hospital</span>
+                </td>
+                <td class="td_table2">
+                    <a href="*">Home</a>
+                    <a href="*">About</a>
+                    <a href="*">Service</a>
+                    <a href="*">Doctors</a>
+                    <a href="*">Contact US</a>
+                </td>
+            </tr>
+        <tbody>
+
+    </table>
+
+    <div class="picture">
+        <img src = "./img/hospital.jpg">
+        <div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <b>Health Care Services</b>
+            <br>  
+            <b>We Care About Your Health</b>            
+        </div>
+    </div>
+    
+    <div class="text">
+        <p><b>We are medical center</b></p>
+        <p><h3>We Have Medicare Plan Options for You!</h3></p>
+        <p>Hospital website templates free download HTML with CSS designed pages is a vast website designing platform and adjusts to the customer needs. With this template, you will almost certainly make a mockery of your offices offering for medicinal services, administrations, fortes, medical expertise, nursing homes, patient care centers, hospitals facilities, and considerably more.</p>
+        <p>Presently many people sick and get injured with accidents. Treatment of them is the top priority, so we need hospitals for this. Today everybody likes to get the list of hospitals and their services as online, so we should develop a hospital's website.</p>
+        <ul>
+            <li>Google map on contact page</li>
+            <li>Used free google fonts</li>
+            <li>Seo friendly html tags</li>
+            <li>Hospital field related building blocks</li>
+            <li>Fast loaded web pages</li>
+        </ul>
+    </div>
+
+    <hr/>
+    <div>       
+        <div class="title">
+            <br>
+            <span>Make an appointment</span>
+        </div>
+
+        <br>
+
+        <table width="100%">
+            <tbody>
+                <td width="50%"></td>
+                <td width="50%">
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td><input class="input_left" type="text" placeholder="First Name" ></td>
+                                <td><input class="input_right" type="text" placeholder="Last Name" ></td>
+                            </tr>
+                            <tr class="height"></tr>
+                            <tr>
+                                <td><input class="input_left" type="email" placeholder="Email ID" ></td>
+                                <td><input class="input_right" type="text" placeholder="Moblie No" ></td>
+                            </tr>
+                            <tr class="height"></tr>
+                            <tr>
+                                <td>
+                                    <select class="input_select">
+                                        <option>--Sex--</option>
+                                        <option>Male</option>
+                                        <option>Female</option> 
+                                    </select>
+                                </td>
+                                <td><input class="input_right" type="text" placeholder="Appointment Date" ></td>
+                            </tr>
+                            <tr class="height"></tr>
+                            <tr>
+                                <td colspan="2"><textarea class="input_textbox"></textarea></td>
+                            </tr>
+                            <tr class="height"></tr>
+                            <tr>
+                                <td colspan="2"><button class="input_button">Submit</button></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tbody>
+        </table>
+
+    </div>
+</body>
+</html>                         
